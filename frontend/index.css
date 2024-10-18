@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #C8A2C8; /* Lilac color */
+    background-color: #FF0000; /* Changed from #C8A2C8 (lilac) to #FF0000 (red) */
 }
 
 .container {
