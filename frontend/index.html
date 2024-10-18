@@ -12,9 +12,14 @@
         <h1>Shopping List</h1>
         <form id="add-item-form">
             <input type="text" id="new-item" placeholder="Add a new item" required>
+            <input type="text" id="item-type" placeholder="Item type" required>
             <button type="submit"><i class="fas fa-plus"></i> Add Item</button>
         </form>
         <ul id="shopping-list"></ul>
+        <div id="chart-container">
+            <h2>Item Types Chart</h2>
+            <div id="chart"></div>
+        </div>
     </div>
     <script type="module" src="index.js"></script>
 </body>

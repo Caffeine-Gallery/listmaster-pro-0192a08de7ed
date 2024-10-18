@@ -15,7 +15,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: #333;
 }
@@ -25,12 +25,13 @@ h1 {
     margin-bottom: 1rem;
 }
 
-#new-item {
+#new-item, #item-type {
     flex-grow: 1;
     padding: 0.5rem;
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 3px;
+    margin-right: 0.5rem;
 }
 
 button {
@@ -88,4 +89,17 @@ button:hover {
 
 .delete-btn:hover {
     color: #f44336;
+}
+
+#chart-container {
+    margin-top: 2rem;
+}
+
+.chart-bar {
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    transition: width 0.3s ease-in-out;
 }
